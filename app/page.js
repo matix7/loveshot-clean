@@ -1,22 +1,9 @@
-import HeroSection from '../components/home/HeroSection';
-import FeaturedProducts from '../components/home/FeaturedProducts';
-import CategorySection from '../components/home/CategorySection';
-import TestimonialSection from '../components/home/TestimonialSection';
-import Newsletter from '../components/ui/Newsletter';
-
-export const metadata = {
-  title: 'Premium Flower Delivery in Dallas-Fort Worth',
-  description: 'Fresh, beautiful flower arrangements delivered same-day throughout the Dallas-Fort Worth metroplex. Order online for any occasion.'
-};
-
 export default function HomePage() {
   return (
-    <>
-      <HeroSection />
-      <FeaturedProducts />
-      <CategorySection />
-      <TestimonialSection />
-      <Newsletter />
-    </>
+    <div className="container mx-auto p-8 text-center">
+      <h1 className="text-4xl font-bold mb-4 text-red-500">LOVESHOT FLOWER SHOP</h1>
+      <p className="text-xl">This is a test to verify deployment is working properly.</p>
+      <p className="mt-4">If you see this text, the deployment is working!</p>
+    </div>
   );
 }
